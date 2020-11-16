@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="210dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lol"/>
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/img_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản Phẩm"
+        android:textSize="15dp"
+        android:id="@+id/tv_product"
+        />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/tv_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá Sản Phẩm"
+        android:layout_below="@id/img_product"
+        android:id="@+id/tv_cost"
+        />
+</RelativeLayout>
